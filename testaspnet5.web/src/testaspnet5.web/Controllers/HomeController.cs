@@ -13,7 +13,7 @@ namespace testaspnet5.web.Controllers
         {
             using (var client = new HttpClient())
             {
-                var result = await client.GetStringAsync("http://e833gene.westeurope.cloudapp.azure.com/cars/all");
+                var result = await client.GetStringAsync("http://testnodejswithaspnet5.eu-gb.mybluemix.net/cars/all");
                 return Json(result);
             }
         }
