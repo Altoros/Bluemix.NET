@@ -1,0 +1,16 @@
+{
+    "name": "testNodeJsWithAspnet5",
+    "version": "0.0.1",
+    "author": "Eugene",
+    "description": "A test node app accessing IBM DB2 and requested by asp.net5 runtime",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {
+      "ibm_db" : ">=0.0.1",
+	  "express" : ">=4.0.0"
+    },
+    "engines": {
+      "node": ">=0.10.3"
+    }
+}
